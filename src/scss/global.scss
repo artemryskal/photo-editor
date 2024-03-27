@@ -1,0 +1,9 @@
+.page {
+  overflow: hidden;
+}
+
+.v-application {
+  &__wrap {
+    max-height: 100dvh;
+  }
+}
