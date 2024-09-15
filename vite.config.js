@@ -5,6 +5,7 @@ import Components from 'unplugin-vue-components/vite'
 import { fileURLToPath } from 'url'
 
 export default defineConfig({
+  base: 'photo-editor',
   plugins: [
     vue(),
     AutoImport({ imports: ['vue', 'vuex'] }),
